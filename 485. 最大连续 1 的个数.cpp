@@ -3,22 +3,18 @@
 using namespace std;
 
 int findMaxConsecutiveOnes(vector<int>& nums) {
-    int beforeLen, maxLen = 1;
+    int result = 0, count = 0;
     for (int i = 0; i < nums.size(); i++) {
-        beforeLen = 1;
-        for (int j = i + 1; i < nums.size(); j++) {
-            if (nums[i] == nums[j]) {
-                beforeLen++;
-            }
-            else {
-                break;
-            }
+        if (nums[i] == 1) {
+            count++;
         }
-        if (beforeLen > maxLen) {
-            maxLen = beforeLen;
+        else {
+            result = max(result, count);
+            count = 0;
         }
     }
-    return maxLen;
+    //c++可用max函数比较两个数大小
+    return max(result, count);
 }
 int main() {
     vector<int> v;
