@@ -31,7 +31,7 @@ void moveZeroes(vector<int>& nums) {
 }
 
 
-int main() {
+int main_2() {
     vector<int> v;
     v.push_back(0);
     v.push_back(0);
