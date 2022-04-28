@@ -13,10 +13,16 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="源文件\数组">
+      <UniqueIdentifier>{454b0ea1-c59d-4adb-b510-f144fa43ad00}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="485. 最大连续 1 的个数.cpp">
-      <Filter>源文件</Filter>
+      <Filter>源文件\数组</Filter>
+    </ClCompile>
+    <ClCompile Include="283. 移动零.cpp">
+      <Filter>源文件\数组</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
