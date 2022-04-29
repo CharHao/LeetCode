@@ -24,5 +24,8 @@
     <ClCompile Include="283. 移动零.cpp">
       <Filter>源文件\数组</Filter>
     </ClCompile>
+    <ClCompile Include="27. 移除元素.cpp">
+      <Filter>源文件\数组</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
