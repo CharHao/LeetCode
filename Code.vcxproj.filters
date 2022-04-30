@@ -16,6 +16,12 @@
     <Filter Include="源文件\数组">
       <UniqueIdentifier>{454b0ea1-c59d-4adb-b510-f144fa43ad00}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\数据结构">
+      <UniqueIdentifier>{2af1d603-f8fc-47e2-aead-baf453b27159}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\链表">
+      <UniqueIdentifier>{711093cd-dc4f-4a2c-b9da-aad6b4a5bf97}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="485. 最大连续 1 的个数.cpp">
@@ -26,6 +32,12 @@
     </ClCompile>
     <ClCompile Include="27. 移除元素.cpp">
       <Filter>源文件\数组</Filter>
+    </ClCompile>
+    <ClCompile Include="链表操作.cpp">
+      <Filter>源文件\数据结构</Filter>
+    </ClCompile>
+    <ClCompile Include="203. 移除链表元素.cpp">
+      <Filter>源文件\链表</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

@@ -9,7 +9,7 @@ using namespace std;
 /*
     较为深奥
 */
-int removeElement(vector<int>& nums, int val) {
+int removeElement1(vector<int>& nums, int val) {
     int right = nums.size();
     int left = 0;
     while (left < right)
@@ -29,7 +29,7 @@ int removeElement(vector<int>& nums, int val) {
     便于理解
     双指针：对撞双指针
 */
-int removeElement(vector<int>& nums, int val) {
+int removeElement2(vector<int>& nums, int val) {
     if (nums.size() == 0) {
         return 0;
     }
@@ -50,7 +50,7 @@ int removeElement(vector<int>& nums, int val) {
     快慢双指针
     [0, 1, 2, 2, 3, 0, 4, 2]
 */
-int removeElement(vector<int>& nums, int val) {
+int removeElement3(vector<int>& nums, int val) {
     int j = 0;//记录和val不相等 交换多少次 把不相等的排到前面有多少个
     for (int i = 0; j < nums.size(); i++) {
         if (nums[i] != val) {
@@ -70,7 +70,7 @@ int main_3() {
     v.push_back(0);
     v.push_back(4);
     v.push_back(2);
-    int m = removeElement(v, 2);
+    int m = removeElement1(v, 2);
     cout << m << endl;
     return 0;
 }
