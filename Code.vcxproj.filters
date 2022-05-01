@@ -39,5 +39,8 @@
     <ClCompile Include="203. 移除链表元素.cpp">
       <Filter>源文件\链表</Filter>
     </ClCompile>
+    <ClCompile Include="206. 反转链表.cpp">
+      <Filter>源文件\链表</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

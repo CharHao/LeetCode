@@ -140,6 +140,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="203. 移除链表元素.cpp" />
+    <ClCompile Include="206. 反转链表.cpp" />
     <ClCompile Include="27. 移除元素.cpp" />
     <ClCompile Include="283. 移动零.cpp" />
     <ClCompile Include="485. 最大连续 1 的个数.cpp" />
