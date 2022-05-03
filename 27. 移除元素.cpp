@@ -6,6 +6,17 @@ using namespace std;
 //输入：nums = [0, 1, 2, 2, 3, 0, 4, 2], val = 2
 //输出：5, nums = [0, 1, 4, 0, 3]
 
+ //方法一：拷贝覆盖
+int removeElement4(vector<int>& nums, int val) {
+    int index = 0;
+    for (int i = 0; i < nums.size(); i++) {
+        if (nums[i] != val) {
+            nums[index] = nums[i];
+            index++;
+        }
+    }
+    return index;
+}
 /*
     较为深奥
 */
