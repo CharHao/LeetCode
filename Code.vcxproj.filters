@@ -22,6 +22,9 @@
     <Filter Include="源文件\链表">
       <UniqueIdentifier>{711093cd-dc4f-4a2c-b9da-aad6b4a5bf97}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\栈">
+      <UniqueIdentifier>{694694e6-591f-4eae-8c61-a974dabc2a0b}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="485. 最大连续 1 的个数.cpp">
@@ -41,6 +44,9 @@
     </ClCompile>
     <ClCompile Include="206. 反转链表.cpp">
       <Filter>源文件\链表</Filter>
+    </ClCompile>
+    <ClCompile Include="496.下一个更大元素 I.cpp">
+      <Filter>源文件\栈</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
