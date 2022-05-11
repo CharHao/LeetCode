@@ -146,6 +146,7 @@
     <ClCompile Include="283. 移动零.cpp" />
     <ClCompile Include="485. 最大连续 1 的个数.cpp" />
     <ClCompile Include="496.下一个更大元素 I.cpp" />
+    <ClCompile Include="933. 最近的请求次数.cpp" />
     <ClCompile Include="链表操作.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

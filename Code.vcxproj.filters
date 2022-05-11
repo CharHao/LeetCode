@@ -25,6 +25,9 @@
     <Filter Include="源文件\栈">
       <UniqueIdentifier>{694694e6-591f-4eae-8c61-a974dabc2a0b}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\队列">
+      <UniqueIdentifier>{2fefe0ef-c0e1-4d5f-96bb-816beb0ff19a}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="485. 最大连续 1 的个数.cpp">
@@ -50,6 +53,9 @@
     </ClCompile>
     <ClCompile Include="20. 有效的括号.cpp">
       <Filter>源文件\栈</Filter>
+    </ClCompile>
+    <ClCompile Include="933. 最近的请求次数.cpp">
+      <Filter>源文件\队列</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
