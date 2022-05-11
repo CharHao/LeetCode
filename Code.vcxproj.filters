@@ -48,5 +48,8 @@
     <ClCompile Include="496.下一个更大元素 I.cpp">
       <Filter>源文件\栈</Filter>
     </ClCompile>
+    <ClCompile Include="20. 有效的括号.cpp">
+      <Filter>源文件\栈</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

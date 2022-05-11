@@ -139,6 +139,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="20. 有效的括号.cpp" />
     <ClCompile Include="203. 移除链表元素.cpp" />
     <ClCompile Include="206. 反转链表.cpp" />
     <ClCompile Include="27. 移除元素.cpp" />
