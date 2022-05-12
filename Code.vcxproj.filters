@@ -28,6 +28,9 @@
     <Filter Include="源文件\队列">
       <UniqueIdentifier>{2fefe0ef-c0e1-4d5f-96bb-816beb0ff19a}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\哈希表">
+      <UniqueIdentifier>{02d5c4ca-3ba7-4a62-8568-e932f37b84ed}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="485. 最大连续 1 的个数.cpp">
@@ -56,6 +59,9 @@
     </ClCompile>
     <ClCompile Include="933. 最近的请求次数.cpp">
       <Filter>源文件\队列</Filter>
+    </ClCompile>
+    <ClCompile Include="217. 存在重复元素.cpp">
+      <Filter>源文件\哈希表</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
